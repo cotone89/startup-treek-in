@@ -1,8 +1,16 @@
 .footer {
-    background: $eerie-black;
-    padding: 20px;
+    background: $onyx;
+    display: grid;
+    grid-template-columns: 1fr;
+    color: $platinum;
+    height: 100px;
+    align-items: center;
+
+    @include respond-to('medium') {
+        grid-template-columns: 4fr 1fr;
+    }
 }
-.footer__image {
-    width: 81px;
-    height: 34px;
+.footer__links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
