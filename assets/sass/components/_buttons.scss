@@ -1,0 +1,23 @@
+.botones {
+    display: inline-block;
+}
+.botones__boton {
+    border-radius: 1.25rem;
+
+    &:hover {
+        background-color: $platinum;
+        border-color: $platinum;
+    }
+
+    &focus {
+        background-color: $nickel;
+        border-color: $platinum;
+    }
+}
+.botones__boton-medium{
+    width:182px;
+}
+.botones__boton-small {
+    width:115px;
+}
+

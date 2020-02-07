@@ -1,0 +1,31 @@
+h1 {
+    font-family: $playfair;
+    font-weight: $black-italic;
+    font-size: $xx-large;
+    font-style: $italic;
+}
+h2 {
+    font-family: $playfair;
+    font-weight: $black-italic;
+    font-size: $x-large;
+    font-style: $italic;
+}
+h3 {
+    font-family: $playfair;
+    font-weight: $regular;
+    font-size: $large;
+    color: $light-gray;
+}
+h4,p {
+    font-family: $roboto;
+    font-weight: $light;
+    font-size: $medium;
+    span{
+        color:$ruddy-pink;
+    }
+}
+h5, h6 {
+    font-family: $roboto;
+    font-weight: $regular;
+    font-size: $small;
+}
