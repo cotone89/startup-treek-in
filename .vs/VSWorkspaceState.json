@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\assets",
+    "\\assets\\sass",
+    "\\assets\\sass\\abstracts",
+    "\\assets\\sass\\base",
+    "\\assets\\sass\\components",
+    "\\assets\\sass\\layout",
+    "\\assets\\sass\\pages",
+    "\\assets\\sass\\themes",
+    "\\assets\\sass\\vendors"
+  ],
+  "SelectedNode": "\\assets\\sass\\abstracts\\_variables.scss",
+  "PreviewInSolutionExplorer": false
+}

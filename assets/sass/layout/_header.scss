@@ -1,0 +1,30 @@
+.header{
+    height: 80px;
+ }
+
+ a {
+    text-decoration: none;
+    color: $black;
+
+    &:hover {
+        text-decoration: none;
+        color: $black;
+    }
+}
+
+.container__boton {
+    background: $ball-blue;
+    border-radius: 0%;
+    color: $white;
+    font-weight: bold;
+
+    &:hover {
+        background: $blue-lagoon;
+        color: $white;
+    }
+
+    &:focus {
+        background: $gray;
+        color: $white;
+    }
+}
