@@ -3,3 +3,21 @@ p {
     font-weight: $regular;
     font-size: $small;
 }
+h4 {
+    font-size: $large;
+    font-weight: $regular;
+    font-family: $open-sans;
+    margin-top: 15px;
+}
+h5 {
+    font-size: $x-large;
+    font-weight: $bold;
+    font-family: $releway;
+    padding-bottom: 20px;
+    border-bottom: 1px solid $gray;
+}
+li {
+    font-size: $small;
+    font-family: $open-sans;
+    color:$nickel;
+}
