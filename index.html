@@ -37,44 +37,63 @@
 
         <main class="main container-fluid">
 
-            <div class="container-titulo">
-                <h2 class="container-titulo__h2 text-center">Precios</h2>
+            <h2 class="container__titulo1 text-center mb-5">Caracter&iacute;sticas</h2>
 
-                <section class="section-precios">
-                    <!--AQUÍ USÉ FLEXBOX-->
-                    <div class="cards-flexbox">
+            <!--AQUÍ USÉ FLEXBOX-->
+            <section class="section-caracteristicas">
+                <div class="section-caracteristicas__grafico">
+                    <svg width="318" height="165" xmlns="http://www.w3.org/2000/svg">
+                        <g class="bar-graph" fill-rule="evenodd">
+                            <path class="a-bar" fill="#EE9480" d="M10.949 53h34.778v108H10.949zM63.613 0h34.778v161H63.613zM116.276 32h34.778v129h-34.778z" />
+                            <path class="b-bar" fill="#2AB7CA" d="M168.94 53h34.778v108H168.94zM221.603 28h34.778v133h-34.778zM274.267 73h34.778v88h-34.778z" />
+                            <path class="plane" d="M3 162.5h312.503" stroke="#979797" stroke-width="5" stroke-linecap="square" />
+                        </g>
+                    </svg>
+                </div>
+                <div class="section-caracteristicas__descripcion">
+                    <h3>Estad&iacute;sticas de tu progreso</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit</p>
+                    <p>venenatis nec orci, viverra turpis himenaeos per</p>
+                    <p>sollicitudin facilisis dictum tempor sem, vel porta</p>
+                    <p>sociosqu felis fusce nam nascetur libero ligula.</p>
+                </div>
+            </section>
 
-                        <div class="card" style="width: 18rem;margin: 30px;">
-                            <div class="card-body card-flexbox__body">
-                                <h4>Trekk-in free</h4>
-                                <h5>$ 0 / mes</h5>
-                                <ul class="card-text">
-                                    <li>Ver mapas creados por usuarios</li>
-                                    <li>Conectar con otros usuarios</li>
-                                </ul>
-                                <button type="button" class="btn card-flexbox__boton1">Obt&eacute;n Free</button>
-                            </div>
-                        </div>
 
 
-                        <div class="card" style="width: 18rem;margin: 60px;">
-                            <div class="card-body card-flexbox__body">
-                                <h4>Trekk-in free</h4>
-                                <h5>$ 3500 / mes</h5>
-                                <ul class="card-text">
-                                    <li>Ver mapas creados por usuarios</li>
-                                    <li>Conectar con otros usuarios</li>
-                                    <li>Definir mejores rutas</li>
-                                    <li>Mapas offline</li>
-                                    <li>Integraci&oacute;n con otras aplicaciones</li>
-                                </ul>
-                                <button type="button" class="btn card-flexbox__boton2">Obt&eacute;n Premium</button>
-                            </div>
+
+            <h2 class="container__titulo2 text-center">Precios</h2>
+
+            <section class="section-precios">
+                <!--AQUÍ USÉ FLEXBOX-->
+                <div class="cards-flexbox">
+                    <div class="card" style="width: 18rem;margin: 30px;">
+                        <div class="card-body card-flexbox__body">
+                            <h4>Trekk-in free</h4>
+                            <h5>$ 0 / mes</h5>
+                            <ul class="card-text">
+                                <li>Ver mapas creados por usuarios</li>
+                                <li>Conectar con otros usuarios</li>
+                            </ul>
+                            <button type="button" class="btn card-flexbox__boton1">Obt&eacute;n Free</button>
                         </div>
                     </div>
-
-                </section>
-            </div>
+                    <div class="card" style="width: 18rem;margin: 60px;">
+                        <div class="card-body card-flexbox__body">
+                            <h4>Trekk-in free</h4>
+                            <h5>$ 3500 / mes</h5>
+                            <ul class="card-text">
+                                <li>Ver mapas creados por usuarios</li>
+                                <li>Conectar con otros usuarios</li>
+                                <li>Definir mejores rutas</li>
+                                <li>Mapas offline</li>
+                                <li>Integraci&oacute;n con otras aplicaciones</li>
+                            </ul>
+                            <button type="button" class="btn card-flexbox__boton2">Obt&eacute;n Premium</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
 
             <!--AQUÍ USÉ GRID-->

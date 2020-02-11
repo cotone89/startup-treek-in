@@ -9911,6 +9911,18 @@ li {
   color: #726F73;
 }
 
+h2 {
+  font-size: 35px;
+  font-weight: 700;
+  font-family: "Raleway", serif;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Raleway", serif;
+}
+
 .footer {
   background: #333745;
   display: grid;
@@ -10043,14 +10055,42 @@ ul li {
   padding: 3px;
 }
 
-.container-titulo__h2 {
+.container__titulo2 {
   position: absolute;
   margin-left: auto;
   margin-right: auto;
   left: 0;
   right: 0;
+  padding-top: 200px;
   color: #fff;
-  padding-top: 180px;
+}
+
+.container__titulo1 {
+  color: #221D23;
+}
+
+.section-caracteristicas {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.section-caracteristicas__grafico, .section-caracteristicas__descripcion {
+  padding: 0px 20px 40px 20px;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .section-caracteristicas__grafico, .section-caracteristicas__descripcion {
+    text-align: left;
+  }
+}
+
+h3 {
+  padding-bottom: 15px;
+}
+
+p {
+  margin-bottom: 3px;
 }
 
 .botones {
