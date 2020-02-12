@@ -1,1 +1,10 @@
 $breakpoints: ( 'small': (min-width: 576px), 'medium': (min-width: 768px), 'large': (min-width: 992px), 'x-large': (min-width: 1200px) );
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
