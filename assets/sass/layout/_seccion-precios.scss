@@ -19,6 +19,11 @@
 }
 .card-flexbox__body {
     height: 380px;
+
+    &:hover {
+        box-shadow: 7px 9px 2px 1px rgba(0, 0, 0, 0.2);
+        cursor:pointer;
+    }
 }
 .card-flexbox__boton1 {
     position: relative;
@@ -78,22 +83,16 @@ ul {
 .container__titulo1 {
     color: $raising-black;
 }
-.section-caracteristicas {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-.section-caracteristicas__grafico, .section-caracteristicas__descripcion {
-    padding: 0px 20px 40px 20px;
-    text-align: center;
 
-    @include respond-to('medium') {
-        text-align: left;
-    }
-}
-h3 {
-    padding-bottom: 15px;
-}
-p {
-    margin-bottom: 3px;
-}
+
+
+
+
+
+
+
+
+
+
+
+

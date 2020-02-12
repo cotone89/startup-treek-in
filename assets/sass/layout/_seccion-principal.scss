@@ -1,0 +1,24 @@
+.section-principal__imagen {
+    img {
+        width: 100%;
+    }
+}
+.section-principal__descripcion {
+    position: relative;
+    top: 10vw;
+    left: 7vw;
+}
+
+.section-caracteristicas__grafico {
+    animation: aparecer 5s infinite;
+}
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

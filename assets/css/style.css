@@ -9923,6 +9923,12 @@ h3 {
   font-family: "Raleway", serif;
 }
 
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Raleway", serif;
+}
+
 .footer {
   background: #333745;
   display: grid;
@@ -10010,6 +10016,10 @@ a:hover {
 .card-flexbox__body {
   height: 380px;
 }
+.card-flexbox__body:hover {
+  box-shadow: 7px 9px 2px 1px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
 
 .card-flexbox__boton1 {
   position: relative;
@@ -10093,6 +10103,28 @@ p {
   margin-bottom: 3px;
 }
 
+.section-principal__imagen img {
+  width: 100%;
+}
+
+.section-principal__descripcion {
+  position: relative;
+  top: 10vw;
+  left: 7vw;
+}
+
+.section-caracteristicas__grafico {
+  animation: aparecer 5s infinite;
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .botones {
   display: inline-block;
 }
