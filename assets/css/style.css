@@ -9982,6 +9982,7 @@ a:hover {
   border-radius: 0%;
   color: #fff;
   font-weight: bold;
+  margin-top: -7px;
 }
 .container__boton:hover {
   background: #B1E4EB;
@@ -9990,6 +9991,21 @@ a:hover {
 .container__boton:focus {
   background: #BABABA;
   color: #fff;
+}
+
+.container__menu-izquierda {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+}
+@media (min-width: 768px) {
+  .container__menu-izquierda {
+    justify-content: left;
+    justify-items: left;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-right: 400px;
+    margin-top: 10px;
+  }
 }
 
 .section-precios {

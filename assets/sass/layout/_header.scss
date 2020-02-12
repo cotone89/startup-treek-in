@@ -17,6 +17,7 @@
     border-radius: 0%;
     color: $white;
     font-weight: bold;
+    margin-top: -7px;
 
     &:hover {
         background: $blue-lagoon;
@@ -27,4 +28,19 @@
         background: $gray;
         color: $white;
     }
+}
+
+.container__menu-izquierda {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+
+    @include respond-to('medium') {
+        justify-content: left;
+        justify-items: left;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-right: 400px;
+        margin-top: 10px;
+    }
+
 }
